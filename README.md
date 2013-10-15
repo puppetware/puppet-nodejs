@@ -12,18 +12,10 @@ Supported Platforms:
 Usage
 -----
 
-Install NodeJS 0.10.18
+Install NodeJS 0.10.20
 
 ```
 class {'nodejs': }
-```
-
-Install a specific version:
-
-```
-class {'nodejs':
-  version => '0.10.17',
-}
 ```
 
 MIT License
