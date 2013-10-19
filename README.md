@@ -12,7 +12,7 @@ Supported Platforms:
 Usage
 -----
 
-Install NodeJS 0.10.20
+Install NodeJS 0.10.21
 
 ```
 class {'nodejs': }

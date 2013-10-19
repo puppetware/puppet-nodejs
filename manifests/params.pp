@@ -12,6 +12,6 @@
 #
 class nodejs::params {
 
-  $version = '0.10.20'
+  $version = '0.10.21'
 
 }
