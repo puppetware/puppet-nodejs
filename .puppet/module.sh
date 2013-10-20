@@ -1,8 +1,3 @@
-
-sudo puppet module list | grep 'skoblenick-nodejs'
-
-if [ $? -ne 0 ]; then
-    sudo puppet module install skoblenick/nodejs
-else
-    echo "Module already installed: skoblenick/nodejs"
-fi
+#!/usr/bin/env bash
+sudo puppet module install puppetlabs/stdlib
+sudo ln -s /vagrant /etc/puppet/modules/nodejs
