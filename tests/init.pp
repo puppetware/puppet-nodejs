@@ -1,1 +1,1 @@
-include nodejs
+class {'nodejs': }
