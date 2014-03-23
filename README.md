@@ -12,11 +12,15 @@ Supported Platforms:
 Usage
 -----
 
-Install NodeJS 0.10.21
+Install NodeJS.
 
 ```
-class {'nodejs': }
+class {'nodejs':
+  version => '0.10.26',
+}
 ```
+
+If no version is specified v0.10.26 will be installed by default.
 
 MIT License
 -----------

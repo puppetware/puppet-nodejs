@@ -18,8 +18,6 @@ class nodejs (
   $version = $nodejs::params::version
 ) inherits nodejs::params {
 
-  anchor {'nodejs::begin': } ->
-  class {'nodejs::install': } ->
-  anchor {'nodejs::end': }
+  class {'nodejs::install': }
 
 }
